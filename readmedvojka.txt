@@ -1,4 +1,4 @@
 novy projekt
 copy facebooker
-nastavit databaze.yml
+fadfafafdas
 nastavit facebooker.yml
