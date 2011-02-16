@@ -7,7 +7,7 @@ role :app, "server3.railshosting.cz"
 role :db,  "server3.railshosting.cz", :primary => true
 
 set :deploy_to, "/home/visitedplaces/app/"
-set :user, "deployer"
+set :user, "root"
 
 set :use_sudo, false
 
