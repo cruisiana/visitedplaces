@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-Testik::Application.config.session_store :cookie_store, :key => '_testik_session'
+Aaa::Application.config.session_store :cookie_store, :key => '_aaa_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information

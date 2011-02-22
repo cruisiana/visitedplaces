@@ -5,3 +5,22 @@ Started GET "/rails/info/properties" for 127.0.0.1 at 2011-02-22 14:08:24 +0100
   [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
 Rendered inline template (0.0ms)
 Completed 200 OK in 97ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-02-22 14:24:43 +0100
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+Rendered inline template (0.0ms)
+Completed 200 OK in 110ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-02-22 14:24:50 +0100
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-22 14:25:34 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
