@@ -24,3 +24,22 @@ Started GET "/home/index" for 127.0.0.1 at 2011-02-22 14:25:34 +0100
   Processing by HomeController#index as HTML
 Rendered home/index.html.erb within layouts/application (3.0ms)
 Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-22 15:30:35 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2011-02-23 12:19:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-02-23 12:19:15 +0100
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+Rendered inline template (0.0ms)
+Completed 200 OK in 137ms (Views: 2.0ms | ActiveRecord: 1.0ms)
